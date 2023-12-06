@@ -31,4 +31,4 @@ It calculates the middle index mid as the average of left and right.
 The value of the current node is updated with the element at the middle index of the sorted array.
 If there are elements to the left of the middle index (left <= mid - 1), a left child node is created, and the corresponding tuple is pushed onto the stack for further processing.
 If there are elements to the right of the middle index (mid + 1 <= right), a right child node is created, and the corresponding tuple is pushed onto the stack for further processing.
-Finally, the function returns the modified placeholder root node, which now represents the root of the constructed balanced BST.
+Finally, the function returns the modified placeholder root node, which now represents the root of the constructed Balanced BST.
